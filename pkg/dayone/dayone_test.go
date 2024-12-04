@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/CezaryKierzyk/AdventOfCode2024/pkg/dayone"
+	"github.com/CezaryKierzyk/AdventOfCode/pkg/dayone"
 )
 
 var (

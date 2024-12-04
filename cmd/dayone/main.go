@@ -4,7 +4,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/CezaryKierzyk/AdventOfCode2024/pkg/dayone"
+	"github.com/CezaryKierzyk/AdventOfCode/pkg/dayone"
 )
 
 func main() {
@@ -28,19 +28,3 @@ func main() {
 	similiarityScore := dayone.CountWithRemove(input)
 	fmt.Println("Similiarity Score: " + fmt.Sprintf("%v", similiarityScore))
 }
-
-/*{17633   15737}
-79440   47531
-44767   73309
-86871   26386
-66575   90774
-31637   38259
-89855   50198
-81829   20253
-95071   98569
-34163   43719
-28696   84802
-10975   89855
-48232   15737
-14078   99983
-40882   73431*/
